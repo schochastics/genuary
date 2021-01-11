@@ -15,6 +15,19 @@ knitr::opts_chunk$set(
 
 More information on [genuary](https://genuary2021.github.io/).
 
+## Prompt 05 - code golf
+
+```{r golf, eval=FALSE}
+library(tidyverse)
+df <- expand_grid(x=1:50,y=1:50)
+df$type <- sample(c("l","r"),nrow(df),replace=TRUE)
+mutate(df,xend=ifelse(type=="r",x+1,x),yend=y+1,x=ifelse(type=="l",x+1,x)) %>% 
+  ggplot(aes(x,y,xend=xend,yend=yend))+geom_segment()+theme_void()+
+  ggtitle("10 PRINT CHR$(205.5+RND(1)); : GOTO 10")
+```
+
+<img src="img/05_golf.png" width="500px">
+
 ## Prompt 08 - curves
 
 [Lissajou curves](https://en.wikipedia.org/wiki/Lissajous_curve)
