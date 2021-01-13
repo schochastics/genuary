@@ -45,7 +45,8 @@ animated
 
 ## Prompt 13 - no repeat
 
-prim factor decomposition on the Ulam Spiral (1-1023)
+Ulam Spiral with prime factor decomposition and unique colours for prime
+numbers (1-1023)
 
 <img src="img/13_no-repeat.png" width="500px">
 
