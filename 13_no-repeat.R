@@ -65,7 +65,7 @@ res <- bind_rows(tibble(n=0,x=0,y=0),res)
 p <- ggplot()+
   geom_rect(data=dat,aes(xmin=xmid-0.5+x-1/factors,xmax=xmid-0.5+x,fill=I(col),alpha=I(alpha),
                 ymin=ymid-0.5,ymax=ymid+0.5),col="black",size=0.15)+
-  # geom_tile(data=res,aes(x,y),size=0.3,fill="NA",col="black")+
+  # geom_tile(data=res,aes(x,y),size=0.45,fill="NA",col="black")+
   annotate("text",x=0,y=0,label="0",size=2)+
   coord_fixed()+
   theme_void()
