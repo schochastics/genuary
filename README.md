@@ -38,3 +38,17 @@ sequences](https://en.wikipedia.org/wiki/Collatz_conjecture)
 animated
 
 <img src="img/10_tree.gif">
+
+## Prompt 12 - api
+
+<img src="img/12_api.gif">
+
+## Prompt 13 - no repeat
+
+prim factor decomposition on the Ulam Spiral (1-1023)
+
+<img src="img/13_no-repeat.png" width="500px">
+
+animated
+
+<img src="img/13_no-repeat.gif">
