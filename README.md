@@ -53,3 +53,9 @@ numbers (1-1023)
 animated
 
 <img src="img/13_no-repeat.gif">
+
+## Prompt 14 - subdivision
+
+some random Mondrian art
+
+<img src="img/14_subdivision.png" width="500px">
